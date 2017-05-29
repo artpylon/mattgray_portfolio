@@ -34,11 +34,11 @@ h1,
 h2,
 h5,
 h6 {
-  color: #f9f9f9;
+  color: #838483;
 }
 
 h3, h4 {
-  color: #299b40;
+  color: #2f872f;
 }
 
 .intro-name {
@@ -47,13 +47,13 @@ h3, h4 {
 }
 
 .intro-name h1 {
-  color: #f9f9f9;
+  color: #fbfdff;
   font-size: 48px;
   margin-bottom: 0;
 }
 
 .intro-name h2 {
-  color: #f9f9f9;
+  color: #fbfdff;
   font-weight: normal;
   font-size: 32px;
   margin: 0;
@@ -67,9 +67,9 @@ p {
 }
 
 .intro-links a {
-  color: #f9f9f9;
+  color: #fbfdff;
   text-decoration: none;
-  border: 2px solid #f9f9f9;
+  border: 2px solid #fbfdff;
   margin-right: 5px;
   padding: 5px;
   display: block;
@@ -83,12 +83,12 @@ p {
 }
 
 .intro-links a:hover {
-  background-color: #f9f9f9;
-  color: #f9f9f9;
+  background-color: #fbfdff;
+  color: #838483;
 }
 
 a {
-  color: #299b40;
+  color: #2f872f;
   text-decoration: none;
 }
 
@@ -98,14 +98,14 @@ a {
 }
 
 .ghost-button {
-  border: 2px solid #299b40;
+  border: 2px solid #2f872f;
   margin-right: 5px;
   padding: 5px;
 }
 
 .ghost-button:hover {
-  background-color: #299b40;
-  color: #f9f9f9;
+  background-color: #2f872f;
+  color: #fbfdff;
 }
 
 html {
@@ -121,8 +121,8 @@ html {
 }
 
 body {
-  background: linear-gradient(180deg, #299b40, #f9f9f9 30%);
-  background-color: #f9f9f9;
+  background: linear-gradient(180deg, #2f872f, #838483 40%);
+  background-color: #838483;
   margin: 0;
 }
 
@@ -135,7 +135,7 @@ section {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #f9f9f9;
+  background-color: #fbfdff;
   margin-bottom: 0;
   padding: 40px;
 }
@@ -147,7 +147,7 @@ section::after {
 }
 
 section:nth-child(odd) {
-  background-color: #f9f9f9;
+  background-color: #f4f4f4;
 }
 
 @media (min-width: 1000px) {
@@ -164,7 +164,7 @@ section:nth-child(odd) {
 }
 
 .intro {
-  background-color: #f9f9f9 !important;
+  background-color: #838483 !important;
   background-image: url("../headshot.png");
   background-position: right;
   background-repeat: no-repeat;
@@ -190,7 +190,7 @@ section:nth-child(odd) {
 }
 
 .project {
-  background-color: #f9f9f9;
+  background-color: #f4f4f4;
   padding: 20px;
   margin-bottom: 20px;
 }
