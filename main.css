@@ -34,11 +34,11 @@ h1,
 h2,
 h5,
 h6 {
-  color: #6b706c;
+  color: #302a5f;
 }
 
 h3, h4 {
-  color: #1b870d;
+  color: #e94344;
 }
 
 .intro-name {
@@ -84,11 +84,11 @@ p {
 
 .intro-links a:hover {
   background-color: #fbfdff;
-  color: #6b706c;
+  color: #302a5f;
 }
 
 a {
-  color: #1b870d;
+  color: #e94344;
   text-decoration: none;
 }
 
@@ -98,13 +98,13 @@ a {
 }
 
 .ghost-button {
-  border: 2px solid #1b870d;
+  border: 2px solid #e94344;
   margin-right: 5px;
   padding: 5px;
 }
 
 .ghost-button:hover {
-  background-color: #1b870d;
+  background-color: #e94344;
   color: #fbfdff;
 }
 
@@ -121,8 +121,8 @@ html {
 }
 
 body {
-  background: linear-gradient(180deg, #1b870d, #6b706c 40%);
-  background-color: ##1b870d;
+  background: linear-gradient(180deg, #e94344, #302a5f 40%);
+  background-color: #302a5f;
   margin: 0;
 }
 
@@ -164,7 +164,7 @@ section:nth-child(odd) {
 }
 
 .intro {
-  background-color: #6b706c !important;
+  background-color: #302a5f !important;
   background-image: url("../headshot.png");
   background-position: right;
   background-repeat: no-repeat;
