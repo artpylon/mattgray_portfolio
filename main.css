@@ -34,7 +34,7 @@ h1,
 h2,
 h5,
 h6 {
-  color: #838483;
+  color: #f9f9f9;
 }
 
 h3, h4 {
@@ -84,7 +84,7 @@ p {
 
 .intro-links a:hover {
   background-color: #f9f9f9;
-  color: #838483;
+  color: #f9f9f9;
 }
 
 a {
@@ -121,8 +121,8 @@ html {
 }
 
 body {
-  background: linear-gradient(180deg, #299b40, #838483 40%);
-  background-color: #838483;
+  background: linear-gradient(180deg, #299b40, #f9f9f9 30%);
+  background-color: #f9f9f9;
   margin: 0;
 }
 
@@ -164,7 +164,7 @@ section:nth-child(odd) {
 }
 
 .intro {
-  background-color: #838483 !important;
+  background-color: #f9f9f9 !important;
   background-image: url("../headshot.png");
   background-position: right;
   background-repeat: no-repeat;
