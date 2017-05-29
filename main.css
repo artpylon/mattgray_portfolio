@@ -47,13 +47,13 @@ h3, h4 {
 }
 
 .intro-name h1 {
-  color: #fbfdff;
+  color: #f9f9f9;
   font-size: 48px;
   margin-bottom: 0;
 }
 
 .intro-name h2 {
-  color: #fbfdff;
+  color: #f9f9f9;
   font-weight: normal;
   font-size: 32px;
   margin: 0;
@@ -67,9 +67,9 @@ p {
 }
 
 .intro-links a {
-  color: #fbfdff;
+  color: #f9f9f9;
   text-decoration: none;
-  border: 2px solid #fbfdff;
+  border: 2px solid #f9f9f9;
   margin-right: 5px;
   padding: 5px;
   display: block;
@@ -83,7 +83,7 @@ p {
 }
 
 .intro-links a:hover {
-  background-color: #fbfdff;
+  background-color: #f9f9f9;
   color: #838483;
 }
 
@@ -105,7 +105,7 @@ a {
 
 .ghost-button:hover {
   background-color: #299b40;
-  color: #fbfdff;
+  color: #f9f9f9;
 }
 
 html {
@@ -135,7 +135,7 @@ section {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #fbfdff;
+  background-color: #f9f9f9;
   margin-bottom: 0;
   padding: 40px;
 }
@@ -147,7 +147,7 @@ section::after {
 }
 
 section:nth-child(odd) {
-  background-color: #f4f4f4;
+  background-color: #f9f9f9;
 }
 
 @media (min-width: 1000px) {
@@ -190,7 +190,7 @@ section:nth-child(odd) {
 }
 
 .project {
-  background-color: #fbfdff;
+  background-color: #f9f9f9;
   padding: 20px;
   margin-bottom: 20px;
 }
