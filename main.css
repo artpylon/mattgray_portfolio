@@ -327,3 +327,6 @@ section:nth-child(odd) {
     color: #20A39C;
   }
 }
+.navbar {
+  opacity: 50%;
+}
