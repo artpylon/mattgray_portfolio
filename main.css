@@ -165,7 +165,7 @@ section:nth-child(odd) {
 
 .intro {
   background-color: #838483 !important;
-  background-image: url("../headshot.png");
+  background-image: url("./assets/imgs/profilepic.jpg");
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -328,5 +328,5 @@ section:nth-child(odd) {
   }
 }
 .navbar {
-  opacity: 25%;
+  opacity: 10%;
 }
