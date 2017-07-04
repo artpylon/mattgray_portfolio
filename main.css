@@ -161,24 +161,25 @@ section:nth-child(odd) {
   .about-point:last-child {
     margin-right: 0;
   }
-}
-
-.transparent-box {
-  background-color: #2f872f;
-  opacity: .3;
-}
 
 .intro {
   background-color: #838483 !important;
-  background-image: url("./assets/imgs/profilepic.jpg");
+  position: relative;
+  text-align: right;
+}
+
+.profile-pic {
   background-position: right;
   background-repeat: no-repeat;
-  background-size: 100%;
-  height: 500px;
-  position: relative;
-  text-align: left;
+  height: 100%;
+  width: 100%;
   opacity: 0.5;
   filter: alpha(opacity=50);
+  float: right;
+}
+
+.about {
+  clear: right;
 }
 
 @media (max-width: 500px) {
