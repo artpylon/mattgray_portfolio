@@ -1,3 +1,6 @@
+/*blue #302a5f*/
+/*grey #838483*/
+
 * {
   font-size: 16px;
 }
@@ -38,7 +41,7 @@ h6 {
 }
 
 h3, h4 {
-  color: #2f872f;
+  color: #302a5f;
 }
 
 .intro-name {
@@ -88,7 +91,7 @@ p {
 }
 
 a {
-  color: #2f872f;
+  color: #302a5f;
   text-decoration: none;
 }
 
@@ -98,13 +101,13 @@ a {
 }
 
 .ghost-button {
-  border: 2px solid #2f872f;
+  border: 2px solid #302a5f;
   margin-right: 5px;
   padding: 5px;
 }
 
 .ghost-button:hover {
-  background-color: #2f872f;
+  background-color: #302a5f;
   color: #fbfdff;
 }
 
@@ -121,7 +124,7 @@ html {
 }
 
 body {
-  background: linear-gradient(180deg, #2f872f, #838483 40%);
+  background: linear-gradient(180deg, #302a5f, #838483 40%);
   background-color: #838483;
   margin: 0;
   min-width: 100%;
