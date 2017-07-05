@@ -126,10 +126,10 @@ body {
   margin: 0;
 }
 
-/*.container {
+.container {
   margin: 0 auto;
-  max-width: 1080px;
-}*/
+  max-width: 100%;
+}
 
 section {
   max-width: 100%;
