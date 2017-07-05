@@ -168,16 +168,6 @@ section:nth-child(odd) {
   text-align: right;
 }
 
-.profile-pic {
-  background-position: right;
-  background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
-  float: right;
-}
-
 .about {
   clear: right;
 }
