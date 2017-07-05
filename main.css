@@ -108,7 +108,7 @@ a {
   color: #fbfdff;
 }
 
-html {
+/*html {
   box-sizing: border-box;
 }
 
@@ -118,7 +118,7 @@ html {
 
 * {
   box-sizing: border-box;
-}
+}*/
 
 body {
   background: linear-gradient(180deg, #2f872f, #838483 40%);
