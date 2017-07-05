@@ -124,16 +124,16 @@ body {
   background: linear-gradient(180deg, #2f872f, #838483 40%);
   background-color: #838483;
   margin: 0;
-  max-width: 100%;
+  width: 100%;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 100%;
+  width: 100%;
 }
 
 section {
-  max-width: 100%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   background-color: #fbfdff;
@@ -168,7 +168,7 @@ section:nth-child(odd) {
     /*background-image: url("../headshot.png");
     background-position: right;
     background-repeat: no-repeat;*/
-    background-size: cover;
+    /*background-size: cover;*/
     height: 500px;
     position: relative;
   }
