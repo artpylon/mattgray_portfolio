@@ -219,7 +219,7 @@ section:nth-child(odd) {
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 500px) {
   .intro {
     background-color: #302a5f !important;
     padding: 20px;
