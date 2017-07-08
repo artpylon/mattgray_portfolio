@@ -172,12 +172,6 @@ section:nth-child(odd) {
   text-align: center;
 }
 
-@media (max-width: 330px) {
-  .intro-links a {
-    font-size: 14px;
-  }
-}
-
 @media (min-width: 1000px) {
   .about-point {
     float: left;
@@ -197,7 +191,7 @@ section:nth-child(odd) {
     background-repeat: no-repeat;*/
     /*background-size: cover;*/
     height: 250px;
-    position: relative;
+    position: absolute;
   }
 
   .about {
@@ -205,13 +199,23 @@ section:nth-child(odd) {
   }
 }
 
-@media (max-width: 500px) {
+@media (min-width: 800px) {
   .intro {
     background-color: #302a5f !important;
     padding: 20px;
     height: 200px;
     position: relative;
-    /*background-image: none;*/
+  }
+
+  .skills h4 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    margin-right: 0;
+  }
+  .skills h4:last-child {
+    margin-right: 0;
   }
 }
 
@@ -236,6 +240,16 @@ section:nth-child(odd) {
   }
 }
 
+@media (max-width: 500px) {
+  .intro {
+    background-color: #302a5f !important;
+    padding: 20px;
+    height: 200px;
+    position: absolute;
+    /*background-image: none;*/
+  }
+}
+
 @media (min-width: 350px) {
   .skills h4 {
     float: left;
@@ -246,6 +260,12 @@ section:nth-child(odd) {
   }
   .skills h4:last-child {
     margin-right: 0;
+  }
+}
+
+@media (max-width: 330px) {
+  .intro-links a {
+    font-size: 14px;
   }
 }
 
