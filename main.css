@@ -189,15 +189,15 @@ section:nth-child(odd) {
     margin-right: 0;
   }
 
-  .intro {
+  /*.intro {
     background-color: #302a5f !important;
     /*background-image: url("../headshot.png");
     background-position: right;
     background-repeat: no-repeat;*/
     /*background-size: cover;*/
-    height: 250px;
+    /*height: 250px;
     position: relative;
-  }
+  }*/
 
   .about {
     clear: right;
@@ -205,23 +205,23 @@ section:nth-child(odd) {
 }
 
 @media (max-width: 500px) {
-  .intro {
+  /*.intro {
     background-color: #302a5f !important;
     padding: 20px;
     height: 200px;
     position: relative;
     /*background-image: none;*/
-  }
+  /*}*/
 }
 
 @media (min-width: 700px) {
-  .intro {
+  /*.intro {
     background-color: #302a5f !important;
     padding: 20px;
     height: 200px;
     position: relative;
     /*background-image: none;*/
-  }
+  /*}*/
 
   .project {
     float: left;
