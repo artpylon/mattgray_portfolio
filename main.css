@@ -150,7 +150,7 @@ section:nth-child(odd) {
 }
 
 .intro-links {
-  position: relative;
+  position: absolute;
   bottom: 50px;
 }
 
@@ -204,7 +204,7 @@ section:nth-child(odd) {
     background-color: #302a5f !important;
     padding: 20px;
     height: 200px;
-    position: relative;
+    position: absolute;
   }
 
   .skills h4 {
@@ -224,7 +224,7 @@ section:nth-child(odd) {
     background-color: #302a5f !important;
     padding: 20px;
     height: 200px;
-    position: relative;
+    position: absolute;
   }
 
   .project {
