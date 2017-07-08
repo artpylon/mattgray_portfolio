@@ -182,8 +182,11 @@ section:nth-child(odd) {
 
 @media (max-width: 500px) {
   .intro {
+    background-color: #302a5f !important;
     padding: 20px;
-    background-image: none;
+    height: 200px;
+    position: relative;
+    /*background-image: none;*/
   }
 }
 
