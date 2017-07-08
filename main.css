@@ -79,12 +79,6 @@ p {
   float: left;
 }
 
-@media (max-width: 330px) {
-  .intro-links a {
-    font-size: 14px;
-  }
-}
-
 .intro-links a:hover {
   background-color: #fbfdff;
   color: #838483;
@@ -154,6 +148,35 @@ section:nth-child(odd) {
   background-color: #f4f4f4;
 }
 
+.intro-links {
+  position: absolute;
+  bottom: 50px;
+}
+
+.projects {
+  margin: 0 auto;
+}
+
+.project {
+  background-color: #fbfdff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.skills {
+  margin-bottom: 0;
+}
+
+.skills h4 {
+  text-align: center;
+}
+
+@media (max-width: 330px) {
+  .intro-links a {
+    font-size: 14px;
+  }
+}
+
 @media (min-width: 1000px) {
   .about-point {
     float: left;
@@ -176,8 +199,9 @@ section:nth-child(odd) {
     position: relative;
   }
 
-.about {
-  clear: right;
+  .about {
+    clear: right;
+  }
 }
 
 @media (max-width: 500px) {
@@ -188,21 +212,6 @@ section:nth-child(odd) {
     position: relative;
     /*background-image: none;*/
   }
-}
-
-.intro-links {
-  position: absolute;
-  bottom: 50px;
-}
-
-.projects {
-  margin: 0 auto;
-}
-
-.project {
-  background-color: #fbfdff;
-  padding: 20px;
-  margin-bottom: 20px;
 }
 
 @media (min-width: 700px) {
@@ -216,14 +225,6 @@ section:nth-child(odd) {
   .project:last-child {
     margin-right: 0;
   }
-}
-
-.skills {
-  margin-bottom: 0;
-}
-
-.skills h4 {
-  text-align: center;
 }
 
 @media (min-width: 350px) {
